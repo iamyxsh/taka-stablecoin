@@ -1,66 +1,14 @@
-## Foundry
+# Taka 🪙 ($TAKA)
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+Taka is a stablecoin loosely based on MakerDAO's DAI stablecoin.
 
-Foundry consists of:
+## Features
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+- **Decentralization**: TAKA operates on a decentralized network, ensuring no single entity has control over the stablecoin.
+- **Stability**: The value of TAKA is pegged to the Indian Rupee, offering stability and reducing volatility commonly associated with other cryptocurrencies.
+- **Smart Contracts**: TAKA utilizes smart contracts on a blockchain to automate processes such as collateralization, liquidation, and governance.
+- **Transparency**: All transactions and operations on the TAKA blockchain are transparent and verifiable through the blockchain's public ledger.
 
-## Documentation
+## How It Works
 
-https://book.getfoundry.sh/
-
-## Usage
-
-### Build
-
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+Taka maintains its peg to the INR through a system of over-collateralization. Users lock up a certain amount of cryptocurrency assets as collateral, enabling the issuance of TAKA. The smart contracts governing the stablecoin automatically adjust collateralization ratios to maintain stability.
